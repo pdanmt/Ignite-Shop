@@ -54,4 +54,6 @@ A aplicação será aberta na rota http://localhost:3000
 ## 📝 Layout
 O figma do projeto pode ser acessado [clicando aqui](https://www.figma.com/design/RUNYohBZdYpJYfwyJL2X08/Ignite-Shop-2.0-%E2%80%A2-Desafio-React-(Copy)?node-id=2-12&t=eREunxtIIHkvX9Pr-0).
 
+O resultado final do projeto pode ser visualizado [neste link](ignite-shop-pdd.vercel.app)
+
 O design do projeto foi desenvolvido pelo pessoal da [Rocketseat](https://www.rocketseat.com.br/).

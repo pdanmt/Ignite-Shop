@@ -88,6 +88,7 @@ export function CartDrawer() {
         } catch (error) {
             console.error(`Um erro ocorreu durante a requisição do checkout de sessão. Erro: ${error}`)
             toast.error('Algo deu errado ao finalizar a compra. Tente novamente.')
+            setLoading(false)
         }
     }
 
