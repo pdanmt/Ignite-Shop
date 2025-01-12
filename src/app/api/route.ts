@@ -15,8 +15,8 @@ export async function POST(request: Request) {
         }))
     
         const checkoutSession = await stripe.checkout.sessions.create({
-            success_url: 'http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}',
-            cancel_url: 'http://localhost:3000/',
+            success_url: 'https://ignite-shop-pdd.vercel.app/success?session_id={CHECKOUT_SESSION_ID}',
+            cancel_url: 'https://ignite-shop-pdd.vercel.app',
             mode: 'payment',
             line_items: lineItems,
         })

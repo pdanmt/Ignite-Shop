@@ -61,7 +61,7 @@ export function CartDrawer() {
             setLoading(true)
 
             const response = await fetch(
-                'http://localhost:3000/api',
+                'https://ignite-shop-pdd.vercel.app/api',
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
